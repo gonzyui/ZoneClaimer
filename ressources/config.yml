@@ -1,0 +1,65 @@
+##########################################################################################
+##                            ZoneClaimer by gonzyui                                    ##
+##                                Version 1.0.0                                         ##
+## For reporting an issue please go into GitHub: https://github.com/gonzyui/zoneclaimer ##
+##      Check https://github.com/gonzyui/zoneclaimer/wiki to get list of placeholders   ##
+##########################################################################################
+
+# Prefix that will be displayed on plugin's messages
+# ex: [PREFIX] You just claimed a land!
+plugin-prefix: '&7[&3ZoneClaimer&7]'
+
+# Title on /zc
+plugin-help-title: "&6Help for ZC plugin"
+
+# Commands description
+# You can see them on doigt /zc
+commands:
+  claim: "&7Let you to claim a chunk!"
+  unclaim: "&7Let you to unclaim a chunk!"
+  reload: "&7Let you to reload configuration files"
+  claim-info: "&7Shows information about actual chunk"
+
+# Configurable messages when player interact with a command
+# See the wiki for placeholders
+# https://github.com/gonzyui/zoneclaimer/wiki
+messages:
+  claim-info:
+    no-claim: "&cNobody claimed this chunk, you can claim it by doing &e/zc claim"
+    claim-info-zone: "&3Claim - %id%"
+    claim-info-owner: "&3Owner: %owner%"
+    claim-info-world: "&3World: %world%"
+  claim-success: "&aSuccessfully claimed this chunk!"
+  claim-failed: "&cThis chunk is already owned by %owner%"
+  syntax-error: "&cSyntax error, please do %syntax%"
+  chunk-owner: "&cThis chunk is owned by %owner%"
+  unclaim-success: "&aSuccessfully unclaimed your chunk!"
+  no-console: "&4Only players can use theses commands! :("
+  reload-success: "&aSuccessfully reloaded plugin's configuration!"
+  reload-failed: "&cFailed to reload plugin's configuration!"
+  no-permissions: "&cYou do not have permissions."
+  cant-interact-in-zone: "&cYou cannot interact in this chunk, someone else claimed it!"
+  actual-chunk-not-claimed: "&bNo one owns this chunk!"
+  claim-already-exists: "&cSomeone already claimed this chunk"
+  dont-own-chunk: "&cYou do not own this chunk!"
+
+# Want to contribute on this plugin ? Do a PR on github
+# https://github.com/gonzyui/zoneclaimer
+
+########################################################################
+##                              SOOON                                 ##
+##                           next release                             ##
+########################################################################
+
+# Sounds played when a player interact on a claim that he don't own
+#sounds:
+  #block-place: true
+
+# Showed titles on claims interact
+#titles:
+#  own-zone-entering:
+#    title: "&aYou entered into your own zone"
+#    subtitle: "&eYou can interact in this chunk."
+#  other-zone-entering:
+#    title: "&cYou entered into a zone"
+#    subtitle: "&4You cannot interact in this chunk."

@@ -1,0 +1,7 @@
+name: ZoneClaimer
+author: gonzyui
+version: 1.0.0
+main: me.gonzyui.zoneclaimer.Main
+commands:
+  zc:
+    description: Shows plugin's commands
